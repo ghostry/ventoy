@@ -1,0 +1,33 @@
+{
+    "control": [
+    {
+        "VTOY_DEFAULT_SEARCH_ROOT": "/iso"
+    }],
+    "theme":
+    {
+        "file": "/ventoy/theme/water_blue_grub/theme.txt",
+        "gfxmode": "1024x768",
+        "display_mode": "GUI",
+        "serial_param": "--unit=0 --speed=9600",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#d3d3d3",
+        "fonts": [
+            "/ventoy/theme/water_blue_grub/wqy-unibit.pf2"
+        ]
+    },
+    "menu_class": [
+    {"key":"arch","class":"arch"},
+    {"key":"deepin","class":"deepin"},
+    {"key":"lubuntu","class":"lubuntu"},
+    {"key":"macos","class":"macos"},
+    {"key":"manjaro","class":"manjaro"},
+    {"key":"phoenix","class":"phoenix"},
+    {"key":"ubuntu","class":"ubuntu"},
+    {"key":"windows","class":"windows"},
+    {
+        "key": "winpe",
+        "class": "windows"
+    }],
+    "auto_memdisk": []
+}
